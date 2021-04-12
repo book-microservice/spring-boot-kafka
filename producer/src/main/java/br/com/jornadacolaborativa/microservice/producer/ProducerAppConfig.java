@@ -11,7 +11,7 @@ public class ProducerAppConfig {
 
     public static void main(String[] args) {
         SpringApplication.run(ProducerAppConfig.class, args);
-        log.info("The application is using {} mb", (Runtime.getRuntime().totalMemory() / 1024 / 1024));
+        log.info("The application is using {} mb", (Runtime.getRuntime().totalMemory() / 1024 / 1024));        
     }
 
 }
