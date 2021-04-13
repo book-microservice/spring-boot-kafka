@@ -16,6 +16,6 @@ public class PaymentConsumer {
         log.info("key: " + consumerRecord.key());
         log.info("Headers: " + consumerRecord.headers());
         log.info("Partion: " + consumerRecord.partition());
-        log.info("Order: " + consumerRecord.value());
+        log.info("Payment: " + consumerRecord.value());
     }
 }
